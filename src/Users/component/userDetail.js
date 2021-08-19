@@ -28,7 +28,7 @@ function UserDetail(props) {
                 <a href={userDetail.email}>{userDetail.email}</a>
               </p>
               <p className="card-text">Phone: {userDetail.phone}</p>
-
+              <p className="card-text">Company: {userDetail.company.name}</p>
               <p className="card-text">Website: {userDetail.website}</p>
               <p className="card-text">
                 Address:

@@ -42,7 +42,7 @@ function UserList() {
                   <h5 className="card-title">{user.name}</h5>
                   <p className="card-text"  style ={{ fontWeight:"lighter", fontStyle:"italic", fontSize:"small"}}>@{user.username}</p>
                   <p className="card-text">
-                    <a href={user.email}>{user.email}</a>
+                    <a href="" style={{ pointerEvents:"none", cursor:'default'}}><i>http://{user.website}</i></a>
                   </p>
 
                   <button
